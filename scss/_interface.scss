@@ -1,0 +1,24 @@
+@use './vars' as *;
+
+.section {
+  padding: 75px 0;
+}
+
+.title {
+  margin: 0;
+  color: $title-main-color;
+}
+
+.subtitle {
+  margin: 0;
+  color: $subtitle-main-color;
+}
+
+.text {
+  margin: 0;
+  color: $text-main-color;
+}
+
+.card__badge {
+  color: $text-main-color;
+}
