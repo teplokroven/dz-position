@@ -1,6 +1,6 @@
 @use '../vars' as *;
 
-.cards {
+.tools-and-tech {
 
   &__title {
     margin-bottom: 65px;
@@ -9,33 +9,32 @@
     text-align: center;
   }
 
-  &__group {
+  &__cards-group {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
   }
 
-}
-
-.card {
-
-  &__content {
+  &__card {
     position: relative;
     background-color: $bg-second-color;
     border-radius: 5px;
     padding: 50px 40px;
     min-width: 300px;
-    max-width: 300px;
   }
+}
+
+.card-content {
 
   &__badge {
     position: absolute;
-    top: -12px;
+    top: 0;
+    left: 205px;
+    transform: translateY(-50%);
     padding: 4px 8px;
     margin: 0;
     border-radius: 2px;
     font-size: 12px;
-    text-align: end;
   }
 
   &__badge--bgcol-true {
