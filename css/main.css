@@ -67,7 +67,7 @@ body {
 .card-content__badge {
   position: absolute;
   top: 0;
-  left: 205px;
+  right: 15px;
   transform: translateY(-50%);
   padding: 4px 8px;
   margin: 0;
