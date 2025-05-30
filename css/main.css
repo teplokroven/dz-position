@@ -14,6 +14,7 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   font-size: 16px;
+  color: #222;
 }
 
 .container {
@@ -33,38 +34,32 @@ body {
 
 .subtitle {
   margin: 0;
-  color: #222;
 }
 
 .text {
   margin: 0;
-  color: #222;
 }
 
-.card__badge {
-  color: #222;
-}
-
-.tools-and-tech__title {
+.tools-tech__title {
   margin-bottom: 65px;
   font-weight: 500;
   font-size: 32px;
   text-align: center;
 }
-.tools-and-tech__cards-group {
+.tools-tech__cards {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
 }
-.tools-and-tech__card {
+.tools-tech__card {
   position: relative;
   background-color: #ffffff;
   border-radius: 5px;
   padding: 50px 40px;
-  min-width: 300px;
+  max-width: 300px;
 }
 
-.card-content__badge {
+.card-skill__status {
   position: absolute;
   top: 0;
   right: 15px;
@@ -74,21 +69,21 @@ body {
   border-radius: 2px;
   font-size: 12px;
 }
-.card-content__badge--bgcol-true {
+.card-skill__status--bgcol-learned {
   background-color: #7be37f;
 }
-.card-content__badge--bgcol-false {
+.card-skill__status--bgcol-not-learned {
   background-color: #ff8b8c;
 }
-.card-content__subtitle {
+.card-skill__subtitle {
   margin-bottom: 10px;
-  max-width: 220px;
   font-weight: 500;
   font-size: 24px;
   text-align: center;
 }
-.card-content__text {
-  max-width: 220px;
-  font-size: 16px;
+.card-skill__text {
   text-align: center;
+}
+.card-skill__text--italic {
+  font-style: italic;
 }/*# sourceMappingURL=main.css.map */

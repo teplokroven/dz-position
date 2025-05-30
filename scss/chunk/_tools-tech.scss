@@ -1,6 +1,6 @@
 @use '../vars' as *;
 
-.tools-and-tech {
+.tools-tech {
 
   &__title {
     margin-bottom: 65px;
@@ -9,7 +9,7 @@
     text-align: center;
   }
 
-  &__cards-group {
+  &__cards {
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
@@ -20,13 +20,13 @@
     background-color: $bg-second-color;
     border-radius: 5px;
     padding: 50px 40px;
-    min-width: 300px;
+    max-width: 300px;
   }
 }
 
-.card-content {
+.card-skill {
 
-  &__badge {
+  &__status {
     position: absolute;
     top: 0;
     right: 15px;
@@ -37,25 +37,26 @@
     font-size: 12px;
   }
 
-  &__badge--bgcol-true {
+  &__status--bgcol-learned {
     background-color: $bg-true-color;
   }
 
-  &__badge--bgcol-false {
+  &__status--bgcol-not-learned {
     background-color: $bg-false-color;
   }
 
   &__subtitle {
     margin-bottom: 10px;
-    max-width: 220px;
     font-weight: 500;
     font-size: 24px;
     text-align: center;
   }
 
   &__text {
-    max-width: 220px;
-    font-size: 16px;
     text-align: center;
+  }
+
+  &__text--italic {
+    font-style: italic;
   }
 }
